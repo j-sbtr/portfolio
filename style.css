@@ -1,0 +1,30 @@
+/*Background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0f0f0f, #2c0a37);
+    margin: 0;
+}
+
+
+/*Navigation */
+nav {
+    text-align: right;
+    background: rgba(53, 23, 73, 0.822);
+    padding: 1em 2em;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5em;
+    font-weight: bold;
+}
+
+
+/*Others */
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
