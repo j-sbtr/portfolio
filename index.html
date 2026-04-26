@@ -5,25 +5,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jasmin Sabater | Web Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+        </style>
     </head>
-    <body>
+
+    <body class="min-h-screen bg-gradient-to-b from-black to-purple-950 text-white">
 
         <!-- Navigation -->
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="techstack.html">Tech Stacks</a>
-            <a href="certificate.html">Certifications</a>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="techstack.html">Tech Stacks</a>
+                <a href="certificate.html">Certifications</a>
+            </div>  
         </nav>
 
-        <div class="top">
-            <div class="info">
-            <p><b>Name:</b></p>
-            <p><b>Section:</b> BSIT2A</p>
-            <p><b>Information:</b> blabla<br> blalba</p>
-            </div>
-           
-            </div> 
+        <!-- Content -->
+        <section class="flex flex-col items-center p-24 h-screen w-full max-w-7xl mx-auto
+        md:flex-row md:justify-between md:items-center">
 
+            <!-- Picture -->
+            <div class="flex justify-center pt-2
+            md:mt-1 md:pt-20 md:pb-64 md:pr-20 md:w-1/2">
+                <img src ="profile.JPG" alt="Profile Picture"
+                class="w-48 h-48 md:w-72 md:h-72 rounded-full object-cover border-4 border-violet-800">
+            </div>
+            
+            <!-- Text -->
+            <div class="text-center pt-5
+            md:text-left md:w-1/2 md:pt-20 md:pb-64">
+                <h1 class="text-4xl font-semibold mb-1">Hi! I am</h1>
+                <h2 class="text-5xl font-bold text-violet-800">Jasmin Sabater</h2>
+                <p class="mt-5">A BSIT student eager to learn, grow, and explore technology to make a positive impact and contribute to the future.</p>
+                <p class="mt-4 text-base">Connect with me:</p>
+                <!-- Icon -->
+                <div class="icon mt-1 inline-flex">
+                    <a href="https://github.com/j-sbtr" target="_blank">
+                        <ion-icon name="logo-github"
+                        class="text-4xl"></ion-icon>
+                    </a>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- Open source icon import -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
