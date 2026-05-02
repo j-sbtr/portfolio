@@ -7,12 +7,8 @@ body {
 /*Navigation */
 nav {
     text-align: right;
-    background: #351749d2;
+    background: #260a56;
     padding: 1em 2em;
-}
-
-nav h1 {
-    text-align: left;
 }
 
 nav a {
@@ -23,12 +19,12 @@ nav a {
 }
 
 .menu a:hover {
-    color: rgb(86, 19, 107);
+    color: rgb(154, 47, 220);
     transition: color 0.5s;
 }
 
 .icon:hover {
-    color: rgb(86, 19, 107);
+    color: rgb(154, 47, 220);
     transition: color 0.5s;
 }
 
