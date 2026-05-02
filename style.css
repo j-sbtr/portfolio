@@ -7,8 +7,12 @@ body {
 /*Navigation */
 nav {
     text-align: right;
-    background: rgba(53, 23, 73, 0.822);
+    background: #351749d2;
     padding: 1em 2em;
+}
+
+nav h1 {
+    text-align: left;
 }
 
 nav a {
@@ -28,16 +32,12 @@ nav a {
     transition: color 0.5s;
 }
 
-
-/*Other Contents 
-
-h1 {
-    text-align: center;
+/*Card button */
+.card-content .btn {
+    display: inline-block;
+    background-color: #1e062fd2;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
     color: #fff;
 }
-
-h2 {
-    text-align: center;
-    color: #fff;
-}
-*/
