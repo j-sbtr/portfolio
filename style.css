@@ -7,7 +7,7 @@ body {
 /*Navigation */
 nav {
     text-align: right;
-    background: #260a56;
+    background: #290e5ccd;
     padding: 1em 2em;
 }
 
@@ -30,7 +30,7 @@ nav a {
 
 /*Card */
 .card {
-    background-color: rgba(57, 24, 118, 0.347);
+    background-color: rgba(61, 26, 125, 0.41);
     color: white;
 }
 
