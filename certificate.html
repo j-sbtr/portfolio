@@ -32,9 +32,11 @@
             <div class="card-container flex justify-center flex-wrap">
                 
                 <div class="card max-w-sm rounded-lg m-10 shadow-indigo-300 mt-3 px-4 py-2
-                hover:-translate-y-5 hover:shadow-2xl transition duration-500">
+                hover:-translate-y-5 hover:shadow-2xl transition duration-500
+                md:min-w-md lg:min-w-lg">
                     <img src ="images/ms-word-associate.jpg" alt="Word Certificate"
-                    class="w-full h-auto border-3 rounded-md">
+                    class="cert-img w-full h-auto border-3 rounded-md"
+                    onclick="openModal(this.src)">
 
                     <div class="card-content">
                         <h3 class="text-2xl mt-2 ml-2 mr-2 font-bold">MS Word Associate</h3>
@@ -44,9 +46,11 @@
                 </div>
 
                 <div class="card max-w-sm rounded-lg m-10 shadow-indigo-300 mt-3 px-4 py-2
-                hover:-translate-y-5 hover:shadow-2xl transition duration-500">
+                hover:-translate-y-5 hover:shadow-2xl transition duration-500
+                md:min-w-md lg:min-w-lg">
                     <img src ="images/ms-excel-associate.jpg" alt="Excel Certificate"
-                    class="w-full h-auto border-3 rounded-md">
+                    class="cert-img w-full h-auto border-3 rounded-md"
+                    onclick="openModal(this.src)">
 
                     <div class="card-content">
                         <h3 class="text-2xl mt-2 ml-2 mr-2 font-bold">MS Excel Associate</h3>
@@ -57,6 +61,25 @@
 
             </div>
         </section>
-
     </body>
+
+    <!--Picture enlargement-->
+    <div id="imageModal" class="fixed inset-0 hidden bg-black/80 flex items-center justify-center z-50">
+        <img id="modalImg" class="max-w-[90%] max-h-[90%] rounded shadow-lg">
+    </div>
+
+    <script>
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImg");
+
+        function openModal(src) {
+        modal.classList.remove("hidden");
+        modalImg.src = src;
+        }
+
+        modal.addEventListener("click", () => {
+        modal.classList.add("hidden");
+        });
+    </script>
+
 </html>

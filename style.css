@@ -51,3 +51,6 @@ nav a {
     transition: color 0.5s;
 }
 
+.cert-img {
+    cursor: pointer;
+}
