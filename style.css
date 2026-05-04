@@ -28,12 +28,16 @@ nav a {
     transition: color 0.5s;
 }
 
+
 /*Card button */
 .card-content .btn {
     display: inline-block;
-    background-color: #1e062fd2;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
-    color: #fff;
+    color: #0d0b0b;
+    font-weight: 600;
+    cursor: pointer
 }
+
