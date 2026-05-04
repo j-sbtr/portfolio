@@ -28,6 +28,11 @@ nav a {
     transition: color 0.5s;
 }
 
+/*Card */
+.card {
+    background-color: rgba(57, 24, 118, 0.347);
+    color: white;
+}
 
 /*Card button */
 .card-content .btn {
@@ -36,8 +41,13 @@ nav a {
     border-radius: 5px;
     padding: 10px 20px;
     margin-top: 10px;
-    color: #0d0b0b;
+    color: white;
     font-weight: 600;
     cursor: pointer
+}
+
+.btn:hover {
+    background-color: #600e93;
+    transition: color 0.5s;
 }
 
