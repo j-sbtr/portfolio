@@ -6,7 +6,6 @@ body {
 
 /*Navigation */
 nav {
-    text-align: right;
     background: #290e5ccd;
     padding: 1em 2em;
 }
@@ -14,12 +13,11 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    margin-left: 1.5em;
     font-weight: bold;
 }
 
 .menu a:hover {
-    color: rgb(154, 47, 220);
+    color: #9a2fdc;
     transition: color 0.5s;
 }
 

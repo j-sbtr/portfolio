@@ -9,20 +9,45 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
         </style>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </head>
     
     <body class="min-h-screen bg-gradient-to-b from-black to-violet-950 text-white">
         <!-- Navigation -->
-        <nav>
-            <div class="menu">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="techstack.html">Tech Stacks</a>
-                <a href="certificate.html">Certifications</a>
-            </div>  
+        <nav class="md:flex md:items-center md:justify-between w-full">
+            <div class="flex justify-between items-center md:ml-5">
+                <span>JSS</span>
+
+                <span class="text-3xl cursor-pointer md:hidden block">
+                    <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
+                </span>
+            </div>
+
+            <ul class="menu z-50 py-4 opacity-0 absolute top-[-400px] transition-all ease-in duration-500
+                md:flex md:items-center md:mr-5 md:z-auto md:py-0 md:opacity-100 md:static">
+                <li class="mx-5 my-4 md:my-0">
+                    <a href="index.html" class="text-lg">Home</a>
+                </li>
+                <li class="mx-5 my-4 md:my-0">
+                    <a href="about.html" class="text-lg">About</a>
+                </li>
+                <li class="mx-5 my-4 md:my-0">
+                    <a href="techstack.html" class="text-lg">Tech Stacks</a>
+                </li>
+                <li class="mx-5 my-4 md:my-0">
+                    <a href="certificate.html" class="text-lg">Certifications</a>
+                </li>
+            </ul>
         </nav>
 
-        <h1>Tech Stack</h1>
+        <script>
+            function Menu(e) {
+                e.name === 'menu' ? e.name = "close" : e.name ="menu"
+            }
+        </script>
+
+        <h1>Tech Stack :></h1>
 
     </body>
 </html>
