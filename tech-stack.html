@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jasmin Sabater | Tech Stack</title>
+        <title>Tech Stack | Jasmin Sabater</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <style>
@@ -24,8 +24,9 @@
                 </span>
             </div>
 
-            <ul class="menu z-50 py-4 opacity-0 absolute top-[-400px] transition-all ease-in duration-500
-                md:flex md:items-center md:mr-5 md:z-auto md:py-0 md:opacity-100 md:static">
+            <ul class="sm:flex sm:items-center sm:static sm:opacity-100 sm:pointer-events-auto
+            z-50 absolute bg-[#290e5ccd] w-full left-0 sm:w-auto py-4 sm:py-0 pl-7 sm:pl-0 
+            opacity-0 top-[-400px] pointer-events-none transition-all ease-in duration-500">
                 <li class="mx-5 my-4 md:my-0">
                     <a href="index.html" class="text-lg">Home</a>
                 </li>
@@ -42,10 +43,20 @@
         </nav>
 
         <script>
-            function Menu(e) {
-                e.name === 'menu' ? e.name = "close" : e.name ="menu"
-            }
-        </script>
+			function Menu(e){
+    		let list = document.querySelector('ul');
+            
+            if(e.name === 'menu'){
+            	e.name = "close";
+            	list.classList.add('top-[80px]', 'opacity-100');
+            	list.classList.remove('pointer-events-none');
+        	} else {
+            	e.name = "menu";
+            	list.classList.remove('top-[80px]', 'opacity-100');
+            	list.classList.add('pointer-events-none');
+        	}
+		}
+		</script>
 
         <h1>Tech Stack :></h1>
 
