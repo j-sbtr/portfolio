@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech Stack | Jasmin Sabater</title>
+        <title>Tech-Stack | Jasmin Sabater</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <style>
@@ -24,39 +24,27 @@
                 </span>
             </div>
 
-            <ul class="sm:flex sm:items-center sm:static sm:opacity-100 sm:pointer-events-auto
-            z-50 absolute bg-[#290e5ccd] w-full left-0 sm:w-auto py-4 sm:py-0 pl-7 sm:pl-0 
-            opacity-0 top-[-400px] pointer-events-none transition-all ease-in duration-500">
-                <li class="mx-5 my-4 md:my-0">
-                    <a href="index.html" class="text-lg">Home</a>
-                </li>
-                <li class="mx-5 my-4 md:my-0">
-                    <a href="about.html" class="text-lg">About</a>
-                </li>
-                <li class="mx-5 my-4 md:my-0">
-                    <a href="tech-stack.html" class="text-lg">Tech Stacks</a>
-                </li>
-                <li class="mx-5 my-4 md:my-0">
-                    <a href="certificate.html" class="text-lg">Certifications</a>
-                </li>
-            </ul>
-        </nav>
+            <div>
+                <ul class="menu bg-[#290e5ccd] w-full left-0 z-50 py-4 opacity-0 absolute top-[-400px] transition-all ease-in duration-500
+                md:flex md:items-center md:mr-5 md:z-auto md:py-0 md:opacity-100 md:static">
+                    <li class="mx-5 my-4 md:my-0">
+                        <a href="index.html" class="text-lg">Home</a>
+                    </li>
+                    <li class="mx-5 my-4 md:my-0">
+                        <a href="about.html" class="text-lg">About</a>
+                    </li>
+                    <li class="mx-5 my-4 md:my-0">
+                        <a href="tech-stack.html" class="text-lg">Tech Stacks</a>
+                    </li>
+                    <li class="mx-5 my-4 md:my-0">
+                        <a href="certificate.html" class="text-lg">Certifications</a>
+                    </li>
+                </ul>
+            </div>
 
-        <script>
-			function Menu(e){
-    		let list = document.querySelector('ul');
-            
-            if(e.name === 'menu'){
-            	e.name = "close";
-            	list.classList.add('top-[80px]', 'opacity-100');
-            	list.classList.remove('pointer-events-none');
-        	} else {
-            	e.name = "menu";
-            	list.classList.remove('top-[80px]', 'opacity-100');
-            	list.classList.add('pointer-events-none');
-        	}
-		}
-		</script>
+        </nav>
+        
+        <script src="style.js"></script>
 
         <h1>Tech Stack :></h1>
 
