@@ -9,6 +9,7 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
         </style>
+        
     </head>
     
     <body class="min-h-screen bg-gradient-to-b from-black to-violet-950 text-white">
@@ -61,25 +62,12 @@
 
             </div>
         </section>
+
+        <!--Picture enlargement-->
+        <div id="imageModal" class="fixed inset-0 hidden bg-black/80 flex items-center justify-center z-50">
+            <img id="modalImg" class="max-w-[90%] max-h-[90%] rounded shadow-lg">
+        </div>
+        <script src="style.js"></script>
     </body>
-
-    <!--Picture enlargement-->
-    <div id="imageModal" class="fixed inset-0 hidden bg-black/80 flex items-center justify-center z-50">
-        <img id="modalImg" class="max-w-[90%] max-h-[90%] rounded shadow-lg">
-    </div>
-
-    <script>
-        const modal = document.getElementById("imageModal");
-        const modalImg = document.getElementById("modalImg");
-
-        function openModal(src) {
-        modal.classList.remove("hidden");
-        modalImg.src = src;
-        }
-
-        modal.addEventListener("click", () => {
-        modal.classList.add("hidden");
-        });
-    </script>
 
 </html>
