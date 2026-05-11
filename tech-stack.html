@@ -1,52 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech-Stack | Jasmin Sabater</title>
+    <title>Certificate | Jasmin Sabater</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+    </style>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style>
-			@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
-    </style>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-	</head>
+    
+  </head>
     
   <body class="min-h-screen bg-gradient-to-b from-black to-violet-950 text-white">
-    <!-- Navigation -->
-    <nav class="md:flex md:items-center md:justify-between w-full">
-      <div class="flex justify-between items-center md:ml-5">
-        <span>JSS</span>
-
-        <span class="text-3xl cursor-pointer md:hidden block">
-          <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
-        </span>
-      </div>
-
-      <div>
-        <ul class="menu bg-[#290e5ccd] w-full left-0 z-50 py-4 opacity-0 absolute top-[-400px] transition-all ease-in duration-500
-        md:flex md:items-center md:mr-5 md:z-auto md:py-0 md:opacity-100 md:static">
-          <li class="mx-5 my-4 md:my-0">
-            <a href="index.html" class="text-lg">Home</a>
-          </li>
-          <li class="mx-5 my-4 md:my-0">
-            <a href="about.html" class="text-lg">About</a>
-          </li>
-          <li class="mx-5 my-4 md:my-0">
-            <a href="tech-stack.html" class="text-lg">Tech Stacks</a>
-          </li>
-          <li class="mx-5 my-4 md:my-0">
-            <a href="certificate.html" class="text-lg">Certifications</a>
-          </li>
-        </ul>
-      </div>
-
+    
+	<!-- Navigation -->
+    <nav>
+      <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="tech-stack.html">Tech Stack</a>
+                <a href="certificate.html">Certifications</a>
+      </div>  
     </nav>
-        
-    <script src="style.js"></script>
 
-    <h1>Tech Stack :></h1>
+	<!--Content -->
+    <main class="flex flex-col items-center px-4 py-12 ">
+      <h1 class="text-4xl mb-12 mt-5 text-white">Tech Stacks</h1>
+    </main>
+
+	<section>
+      <div class="flex justify-center flex-wrap">
+
+		<section>
+			<div class="card-container grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 md:p-8 gap-10 items-stretch w-full max-w-6xl mx-auto">
+				<!--Backend -->
+				<div class="bg-gray-800/25 rounded-2xl p-7 flex flex-col
+				border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
+					<div class="text-center mb-7">
+						<h2 class="text-2xl font-bold text-purple-400">Backend</h2>
+					</div>
+					
+					<div>
+						<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-0">
+							<!--Items on backend -->
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/java.png" alt="Java Logo">
+								</div>
+								<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
+									<div class="font-bold text-lg tracking-widest">JAVA</div>
+								</div>
+							</div>
+
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/c-language.png" alt="C Logo">
+								</div>
+								<div class="px-6 py-4 text-center">
+									<div class="font-bold text-lg tracking-widest">C</div>
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+				<!--Frontend & Design -->
+				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col
+				border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
+					<div class="text-center mb-7">
+						<h2 class="text-2xl font-bold text-purple-400">Frontend & Design</h2>
+					</div>
+					
+					<div>
+						<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-0">
+							<!--Items on Frontend & Design -->
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/html.png" alt="HTML Logo">
+								</div>
+								<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
+									<div class="font-bold text-lg tracking-widest">HTML</div>
+								</div>
+							</div>
+
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/css.png" alt="CSS Logo">
+								</div>
+								<div class="px-6 py-4 text-center">
+									<div class="font-bold text-lg tracking-widest">CSS</div>
+								</div>
+							</div>
+
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/tailwind-css.png" alt="Tailwind Logo">
+								</div>
+								<div class="px-6 py-4 text-center">
+									<div class="font-bold text-lg tracking-widest">Tailwind CSS</div>
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+				<!--Database -->
+				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col
+				border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
+					<div class="text-center mb-7">
+						<h2 class="text-2xl font-bold text-purple-400">Database</h2>
+					</div>
+					
+					<div>
+						<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-0">
+							<!--Items on Database -->
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/postgresql.png" alt="PostgreSQL Logo">
+								</div>
+								<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
+									<div class="font-bold text-lg tracking-widest">PostgreSQL</div>
+								</div>
+							</div>
+
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/mongodb.png" alt="MongoDB Logo">
+								</div>
+								<div class="px-6 py-4 text-center">
+									<div class="font-bold text-lg tracking-widest">MongoDB</div>
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+				<!--Tools -->
+				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col
+				border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
+					<div class="text-center mb-7">
+						<h2 class="text-2xl font-bold text-purple-400">Tools</h2>
+					</div>
+					
+					<div>
+						<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-0">
+							<!--Items on Tools -->
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/visual-studio-code.png" alt="VSC Logo">
+								</div>
+								<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
+									<div class="font-bold text-lg tracking-widest">VSC</div>
+								</div>
+							</div>
+
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/ssms.png" alt="SSMS Logo">
+								</div>
+								<div class="px-6 py-4 text-center">
+									<div class="font-bold text-lg tracking-widest">SSMS</div>
+								</div>
+							</div>
+
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/android-studio.png" alt="Android Studio Logo">
+								</div>
+								<div class="px-6 py-4 text-center">
+									<div class="font-bold text-lg tracking-widest">Android Studio</div>
+								</div>
+							</div>
+
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/git.png" alt="Git Logo">
+								</div>
+								<div class="px-6 py-4 text-center">
+									<div class="font-bold text-lg tracking-widest">Git</div>
+								</div>
+							</div>
+
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
+							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/github.png" alt="Github Logo">
+								</div>
+								<div class="px-6 py-4 text-center">
+									<div class="font-bold text-lg tracking-widest">Github</div>
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+		</section>
 
   </body>
 </html>
