@@ -7,7 +7,7 @@ body {
 /*Navigation and hamburger menu*/
 nav {
     background: #2b1457;
-    padding: 10px 50px; /*2:35 */
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
