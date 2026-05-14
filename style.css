@@ -84,8 +84,9 @@ nav ul li a:hover {
 
 /*Card */
 .card {
-    background-color: rgba(61, 26, 125, 0.41);
     color: white;
+    font-size: small;
+    padding: 2;
 }
 
 /*Card button */
@@ -100,10 +101,7 @@ nav ul li a:hover {
     cursor: pointer
 }
 
-.btn:hover {
-    background-color: #600e93;
-    transition: color 0.5s;
-}
+
 
 .cert-img {
     cursor: pointer;
