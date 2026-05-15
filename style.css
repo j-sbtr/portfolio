@@ -6,12 +6,12 @@ body {
 
 /*Navigation and hamburger menu*/
 nav {
-    background: #2b1457;
+    background: #341b5f;
     padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 57px;
+    height: 60px;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -59,7 +59,7 @@ nav ul li a:hover {
         right: 0;
         flex-direction: column;
         text-align: center;
-        background-color: #2b1457;
+        background-color: #341b5f;
         gap: 0;
         overflow: hidden;
     }
@@ -70,7 +70,7 @@ nav ul li a:hover {
 
     .menu-icon {
         display: block;
-        padding-top: 3px;
+        padding-top: 7px;
     }
 
     #menuList{
