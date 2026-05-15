@@ -16,185 +16,141 @@
     
   <body class="min-h-screen bg-gradient-to-b from-black to-violet-950 text-white">
     
-	<!-- Navigation -->
-  <nav>
-    <div class="logo">
-      <h1>JSS</h1>
-    </div>
+		<!-- Navigation -->
+		<nav>
+			<div class="logo">
+				<h1>JSS</h1>
+			</div>
 
-    <ul id="menuList">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="tech-stack.html">Tech Stack</a></li>
-      <li><a href="certificate.html">Certification</a></li>
-    </ul>
-    <div class="menu-icon">
-      <ion-icon name="menu-outline" onclick="toggleMenu()"></ion-icon>
-    </div>
-  </nav>
+			<ul id="menuList">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="tech-stack.html">Tech Stack</a></li>
+				<li><a href="certificate.html">Certification</a></li>
+			</ul>
+			<div class="menu-icon">
+				<ion-icon name="menu-outline" onclick="toggleMenu()"></ion-icon>
+			</div>
+		</nav>
 
 
-	<!--Content -->
-  <main class="flex flex-col items-center px-4 py-12 ">
-    <h1 class="text-4xl text-white mb-12 mt-5 font-semi-bold tracking-wider font-[Kanit]">Tech Stack</h1>
-  </main>
-
-	<section>
-    <div class="flex justify-center flex-wrap">
+		<!-- Content -->
+		<main class="flex flex-col items-center px-4 py-12 ">
+			<h1 class="text-4xl text-white mb-12 mt-5 font-semi-bold tracking-wider font-[Kanit]">Tech Stack</h1>
+		</main>
 
 		<!--Card Container-->
 		<section class="w-full">
 			<div class="card-container grid grid-cols-1 p-20 pt-0 gap-10 p-10 items-stretch md:p-20 md:pt-0 lg:p-20 lg:pt-0 lg:max-w-7xl mx-auto">
 				
-				<!--Main cards -->
-				<!--Backend -->
-				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col
-				border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
+				<!--Languages Card-->
+				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
 					<div class="text-center mb-7">
-						<h2 class="text-2xl font-bold text-purple-400 tracking-wider">Backend</h2>
+						<h2 class="text-2xl font-bold text-purple-400 tracking-wider">Languages</h2>
 					</div>
 					
-					<div> <!--Main card contents -->
-						<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-0">
-
-							<!--Items in Backend -->
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
-								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/java.png" alt="Java Logo">
-								</div>
-								<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
-									<div class="font-bold text-lg tracking-wider">Java</div>
-								</div>
+					<!--Items in Languages -->
+					<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-0">
+						
+						<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+								<img class="w-16 h-16 object-contain scale-110" src="images/stacks/java.png" alt="Java Logo">
 							</div>
-
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
-								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/c-language.png" alt="C Logo">
-								</div>
-								<div class="px-6 py-4 text-center">
-									<div class="font-bold text-lg tracking-wider">C</div>
-								</div>
+							<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
+								<div class="font-bold text-lg tracking-wider">Java</div>
 							</div>
-
 						</div>
+
+						<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+								<img class="w-16 h-16 object-contain scale-110" src="images/stacks/html.png" alt="HTML Logo">
+							</div>
+							<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
+								<div class="font-bold text-lg tracking-wider">HTML</div>
+							</div>
+						</div>
+
+						<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+								<img class="w-16 h-16 object-contain scale-110" src="images/stacks/css.png" alt="CSS Logo">
+							</div>
+							<div class="px-6 py-4 text-center">
+								<div class="font-bold text-lg tracking-wider">CSS</div>
+							</div>
+						</div>
+
+						<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+								<img class="w-16 h-16 object-contain scale-110" src="images/stacks/tailwind-css.png" alt="Tailwind CSS Logo">
+							</div>
+							<div class="px-6 py-4 text-center">
+								<div class="font-bold text-lg tracking-wider">Tailwind CSS</div>
+							</div>
+						</div>
+
+						<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+								<img class="w-16 h-16 object-contain scale-110" src="images/stacks/javascript.png" alt="JavaScript Logo">
+							</div>
+							<div class="px-6 py-4 text-center">
+								<div class="font-bold text-lg tracking-wider">JavaScript</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 
-				<!--Frontend & Design -->
-				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col
-				border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
+
+				<!--Database Card -->
+				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
 					<div class="text-center mb-7">
-						<h2 class="text-2xl font-bold text-purple-400 tracking-wider">Frontend & Design</h2>
+						<h2 class="text-2xl font-bold text-purple-400 tracking-wider">Databases</h2>
 					</div>
 					
-					<div> <!--Main card contents -->
-						<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-0">
-
-							<!--Items in Frontend & Design -->
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
-								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/html.png" alt="HTML Logo">
-								</div>
-								<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
-									<div class="font-bold text-lg tracking-wider">HTML</div>
-								</div>
+					<!--Items in Database -->
+					<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-0">
+							
+						<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+								<img class="w-16 h-16 object-contain scale-110" src="images/stacks/postgresql.png" alt="PostgreSQL Logo">
 							</div>
-
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
-								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/css.png" alt="CSS Logo">
-								</div>
-								<div class="px-6 py-4 text-center">
-									<div class="font-bold text-lg tracking-wider">CSS</div>
-								</div>
+							<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
+								<div class="font-bold text-lg tracking-wider">PostgreSQL</div>
 							</div>
+						</div>
 
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+						<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
 								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/tailwind-css.png" alt="Tailwind Logo">
-								</div>
-								<div class="px-6 py-4 text-center">
-									<div class="font-bold text-lg tracking-wider">Tailwind CSS</div>
-								</div>
+								<img class="w-16 h-16 object-contain scale-110" src="images/stacks/mongodb.png" alt="MongoDB Logo">
 							</div>
-
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
-								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/javascript.png" alt="JavaScript Logo">
-								</div>
-								<div class="px-6 py-4 text-center">
-									<div class="font-bold text-lg tracking-wider">JavaScript</div>
-								</div>
+							<div class="px-6 py-4 text-center">
+								<div class="font-bold text-lg tracking-wider">MongoDB</div>
 							</div>
+						</div>
 
-						</div>	
 					</div>
 				</div>
 
-				<!--Database -->
-				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col
-				border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
-					<div class="text-center mb-7">
-						<h2 class="text-2xl font-bold text-purple-400 tracking-wider">Database</h2>
-					</div>
-					
-					<div> <!--Main card contents -->
-						<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-0">
 
-							<!--Items in Database -->
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
-								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/postgresql.png" alt="PostgreSQL Logo">
-								</div>
-								<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
-									<div class="font-bold text-lg tracking-wider">PostgreSQL</div>
-								</div>
-							</div>
-
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
-								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/mongodb.png" alt="MongoDB Logo">
-								</div>
-								<div class="px-6 py-4 text-center">
-									<div class="font-bold text-lg tracking-wider">MongoDB</div>
-								</div>
-							</div>
-
-						</div>	
-					</div>
-				</div>
-
-				<!--Tools -->
-				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col
-				border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
+				<!--Tools Card -->
+				<div class="bg-gray-800/25 rounded-2xl p-7 h-full flex flex-col border border-gray-700 hover:border-purple-400/50 duration-300 hover:bg-purple-400/10">
 					<div class="text-center mb-7">
 						<h2 class="text-2xl font-bold text-purple-400 tracking-wider">Tools</h2>
 					</div>
 					
-					<div> <!--Main card contents -->
-						<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-0">
-
-							<!--Items in Tools -->
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
-								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
-									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/visual-studio-code.png" alt="VS Code Logo">
-								</div>
-								<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
-									<div class="font-bold text-lg tracking-wider">VS Code</div>
-								</div>
+					<!--Items in Tools -->
+					<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-0"> 
+							
+						<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
+								<img class="w-16 h-16 object-contain scale-110" src="images/stacks/visual-studio-code.png" alt="VS Code Logo">
 							</div>
+							<div class="px-6 py-4 text-center flex-1 flex items-center justify-center">
+								<div class="font-bold text-lg tracking-wider">VS Code</div>
+							</div>
+						</div>
 
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
 								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
 									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/ssms.png" alt="SSMS Logo">
 								</div>
@@ -203,8 +159,7 @@
 								</div>
 							</div>
 
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
 								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
 									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/android-studio.png" alt="Android Studio Logo">
 								</div>
@@ -213,8 +168,7 @@
 								</div>
 							</div>
 
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
 								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
 									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/git.png" alt="Git Logo">
 								</div>
@@ -223,8 +177,7 @@
 								</div>
 							</div>
 
-							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 
-							hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
+							<div class="relative rounded-xl overflow-hidden bg-purple-400/10 border border-gray-400/50 hover:bg-purple-900/50 hover:scale-105 hover:border-white duration-300">
 								<div class="h-32 flex items-center justify-center border-b border-gray-400/50">
 									<img class="w-16 h-16 object-contain scale-110" src="images/stacks/github.png" alt="Github Logo">
 								</div>
@@ -232,18 +185,18 @@
 									<div class="font-bold text-lg tracking-wider">Github</div>
 								</div>
 							</div>
-
-						</div>	
+							
 					</div>
 				</div>
 
+			</div>
 		</section>
 
-	<!-- For Hamburger Nav Bar -->
-	<script>
-    let menuList = document.getElementById("menuList")
-    menuList.style.maxHeight = "0px";
-  </script>
+		<!-- For Hamburger Nav Bar -->
+		<script>
+			let menuList = document.getElementById("menuList")
+			menuList.style.maxHeight = "0px";
+		</script>
 
     <script src="style.js"></script>
     
